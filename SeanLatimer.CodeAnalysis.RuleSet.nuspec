@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>SeanLatimer.CodeAnalysis.RuleSet</id>
+    <version>1.0.0</version>
+    <authors>Sean Latimer</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <developmentDependency>true</developmentDependency>
+    <description>Code Analysis rulset for SeanLatimer's project standards</description>
+    <dependencies>
+      <dependency id="StyleCop.Analyzers" version="1.0.2" />
+      <dependency id="Roslynator.Analyzers" version="2.0.0" />
+      <dependency id="Roslynator.CodeFixes" version="2.0.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="SeanLatimer.CodeAnalysis.RuleSet.ruleset" target="SeanLatimer.CodeAnalysis.RuleSet.ruleset" />
+    <file src="SeanLatimer.CodeAnalysis.RuleSet.targets" target="SeanLatimer.CodeAnalysis.RuleSet.targets" />
+    <file src="stylecop.json" target="stylecop.json" />
+  </files>
+</package>
