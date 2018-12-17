@@ -2,9 +2,12 @@ version: 1.0.{build}
 image: Visual Studio 2017
 build_script:
   - ps: ./tools/nuget.exe pack
+artifacts:
+  - path: '**\*.nupkg'
+    name: pkg
 deploy:
   - provider: NuGet
     api_key:
       secure: pODLcXDmkbdHzfl9Cu4kAQkwCOh4I4CGkKSJE3NXswFugwpGpbwN/WQ0GPhQbujv
     skip_symbols: true
-    artifact: '**\*.nupkg'
+    artifact: pkg
