@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+<package>
   <metadata>
     <id>SeanLatimer.CodeAnalysis.RuleSet</id>
     <version>1.0.0</version>
     <authors>Sean Latimer</authors>
+    <license type="expression">MIT</license>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <developmentDependency>true</developmentDependency>
     <description>Code Analysis rulset for SeanLatimer's project standards</description>
