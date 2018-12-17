@@ -1,9 +1,7 @@
 version: 1.0.{build}
 image: Visual Studio 2017
-install:
-  - ps: nuget update -self
 build_script:
-  - ps: nuget pack
+  - ps: ./tools/nuget.exe pack
 deploy:
   - provider: NuGet
     api_key:
