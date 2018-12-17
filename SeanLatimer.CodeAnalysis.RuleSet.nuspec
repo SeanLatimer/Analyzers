@@ -2,21 +2,21 @@
 <package>
   <metadata>
     <id>SeanLatimer.CodeAnalysis.RuleSet</id>
-    <version>1.0.0</version>
+    <version>1.0.1-beta</version>
     <authors>Sean Latimer</authors>
     <license type="expression">MIT</license>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <developmentDependency>true</developmentDependency>
     <description>Code Analysis rulset for SeanLatimer's project standards</description>
     <dependencies>
-      <dependency id="StyleCop.Analyzers" version="1.0.2" />
+      <dependency id="StyleCop.Analyzers" version="1.1.1-beta.61" />
       <dependency id="Roslynator.Analyzers" version="2.0.0" />
       <dependency id="Roslynator.CodeFixes" version="2.0.0" />
     </dependencies>
   </metadata>
   <files>
-    <file src="SeanLatimer.CodeAnalysis.RuleSet.ruleset" target="SeanLatimer.CodeAnalysis.RuleSet.ruleset" />
-    <file src="SeanLatimer.CodeAnalysis.RuleSet.targets" target="SeanLatimer.CodeAnalysis.RuleSet.targets" />
-    <file src="stylecop.json" target="stylecop.json" />
+    <file src="build\SeanLatimer.CodeAnalysis.RuleSet.ruleset" target="build\SeanLatimer.CodeAnalysis.RuleSet.ruleset" />
+    <file src="build\SeanLatimer.CodeAnalysis.RuleSet.targets" target="build\SeanLatimer.CodeAnalysis.RuleSet.targets" />
+    <file src="build\stylecop.json" target="build\stylecop.json" />
   </files>
 </package>
